@@ -183,9 +183,7 @@ namespace Qoollo.Net.Http
         #region IDisposable Support
 
         private bool disposed = false; // To detect redundant calls
-        private string hostname;
-        private string _scheme;
-
+        
         protected virtual void Dispose(bool disposing)
         {
             if (!disposed)
